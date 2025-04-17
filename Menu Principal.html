@@ -1,0 +1,78 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Menu Principal</title>
+        <link rel="stylesheet" href="stylesmenu.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Menu Principal.html">Inicio</a></li>
+                    <li><a href="index.html">¿Quienes Somos?</a></li>
+                    <li><a href="PersonalCecytez.html">Personal Administrativo y Docente</a></li>
+                    <li><a href="Instalaciones.html">Instalaciones</a></li>
+                    <li><a href="Carreras.html">Carreras</a></li>
+                    <li><a href="Programas.html">Programas</a></li>
+                    <li><a href="Galeria.html">Galeria</a></li>
+                    <li><a href="Vision.html">Vision</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <div class="carousel-container">
+            <div class="carousel-slide" id="slide">
+                <img src="Bienvenidos.jpg">
+                <img src="GalaCecytez2023.jpg">
+                <img src="SeñoritaCecytez2024.jpg">
+                <img src="SeñoritaCecytez203.jpg">
+                <img src="PorraCecytez2023.jpg">
+                <img src="CandidatosCecytez.jpg">
+                <img src="CandidatosCecytez2.jpg">
+                <img src="Estudiante1.jpg">
+                <img src="Estudiante3.jpg">
+                <img src="Estudiante8.jpg">
+                <img src="Bienvenida1.jpg">
+                <img src="Bienvenida2.jpg">
+                <img src="Festival20231.jpeg">
+                <img src="Festival1.jpg">
+                <img src="Festival3.jpg">
+                <img src="Innovacion1.jpg">
+                <img src="Innovacion4.jpg">
+                <img src="Deportivos.jpg">
+                <img src="Deportivos1.jpg">
+                <img src="Voleibol1.jpg">
+                <img src="Voleibol2.jpg">
+                <img src="Futbol2.jpg">
+            </div>
+        </div>
+        <br>
+        <br>
+        <script>
+            let slideIndex = 0;
+            const slide = document.getElementById("slide");
+            const images = document.querySelectorAll("#slide img");
+            const total = images.length;
+            
+            function showSlide() {
+              slideIndex++;
+              if (slideIndex >= total) slideIndex = 0;
+              slide.style.transform = `translateX(-${slideIndex * 700}px)`;
+            }
+            setInterval(showSlide, 3000);
+        </script>
+        <div class="card">
+        <p>
+            Trabajo Realizado Por: Jorge Alejandro Garcia Hernandez 
+        </p>
+        <p>
+            Alumno de 4to Semestre En La Carrera de Programacion 
+        </p>
+    </div>
+    </body>
+</html>

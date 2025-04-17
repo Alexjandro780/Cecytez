@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Electricidad</title>
+        <link rel="stylesheet" 
+        href="stylesmenu.css">
+        <link rel="stylesheet" 
+        href="styles.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                fetch("Menu.html")
+                .then(Response=>Response.text())
+                .then(data=>{
+                    document.getElementById("menu-container").innerHTML=data;
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="menu-container"></div>
+        <h3><center>Mapa De Competencias Profesionales De La Carrera En Tecnico De Electricidad</center></h3>
+        <br>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a4e91;">Modulo I</div>
+            <div class="modulo-info">
+                <h3>Desarrolla instalaciones electricas residenciales y comerciales</h3>
+                <p>Submodulo I - Diseña instalaciones electricas</p>
+                <p>Submodulo II - Realiza instalaciones electricas</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a8c4b">Modulo II</div>
+            <div class="modulo-info">
+                <h3>Mantiene los motores y generadores de CA y CC</h3>
+                <p>Submodulo I - Mantiene los motores de CA y CC</p>
+                <p>Submodulo II - Mantiene los generadores de CA y CC</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #c45f1a">Modulo III</div>
+            <div class="modulo-info">
+                <h3>Mantiene en operacion los circuitos de control electromagnetico y electronico</h3>
+                <p>Submodulo I - Mantiene en operacion circuitos de control electromagnetico</p>
+                <p>Submodulo II - Mantiene en operacion circuitos de control electronico</p>
+                <p>Submodulo III - Programa y conecta Controladores Logicos Programables (PLC's)</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo IV</div>
+            <div class="modulo-info">
+                <h3>Diseña y mantiene los sistemas de iluminacion y energia renovable</h3>
+                <p>Submodulo I - Diseña y mantiene los sistemas de iluminacion</p>
+                <p>Submodulo II - Realiza mantenimiento a las instalaciones electricas residenciales, comerciales e industriales</p>
+                <p>Submodulo III - Implementa y mantiene los sistemas de energia renovable</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo V</div>
+            <div class="modulo-info">
+                <h3>Mantiene instalaciones electricas de media y baja tension</h3>
+                <p>Submodulo I - Realiza mantenimiento en el sistema de distribucion de energia electrica</p>
+                <p>Submodulo II - Realiza mantenimiento en subestaciones electricas</p>
+            </div>
+        </div>
+        <a href="Programacion.html" target="_blank"><h4><center>Mapa De Competencias Profesionales De la Carrera En Tecnico De Programacion</center></h4></a>
+    </body>
+</html>

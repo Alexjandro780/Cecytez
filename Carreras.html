@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Carreras</title>
+        <link rel="stylesheet" 
+        href="stylesmenu.css">
+        <link rel="stylesheet" 
+        href="styles.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                fetch("Menu.html")
+                .then(Response=>Response.text())
+                .then(data=>{
+                    document.getElementById("menu-container").innerHTML=data;
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="menu-container"></div>
+        <h1>Carreras</h1>
+        <br>
+        <p>A continuacion veremos cada una de las carreras tecnicas que nos ofrece el Cecytez de manera detallada: </p>
+        <br>
+        <h3><center>Mapa De Competencias Profesionales De La Carrera En Tecnico de Procesos de Gestion Administrativa</center></h3>
+        <br>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a4e91;">Modulo I</div>
+            <div class="modulo-info">
+                <h3>Auxilia en el registro y analisis de procesos contables de una organizacion</h3>
+                <p>Submodulo I - Auxilia en la captura y registro de documentos contables de una organizacion</p>
+                <p>Submodulo II - Apoya en el analisis e interpretacion de la informacion financiera</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a8c4b">Modulo II</div>
+            <div class="modulo-info">
+                <h3>Auxilia en el area de costos de una organizacion</h3>
+                <p>Submodulo I - Auxilia en el registro y manejo de los metodos de valuacion y control de inventarios</p>
+                <p>Submodulo II - Apoya en el calculo de los costos de produccion de una organizacion</p>
+                <p>Submodulo III - Asiste en el registro de informacion de costos para la toma de decisiones</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #c45f1a">Modulo III</div>
+            <div class="modulo-info">
+                <h3>Asiste en el proceso de ventas de una organizacion</h3>
+                <p>Submodulo I - Aplica el cierre de la cadena de suministro de manera personalizada en establecimientos de comercio al por menor</p>
+                <p>Submodulo II - Atiende y presta servicio al cliente verificando su grado de sastifaccion</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo IV</div>
+            <div class="modulo-info">
+                <h3>Apoya en la cadena productiva de una organizacion</h3>
+                <p>Submodulo I - Identifica y maneja la cadena de producion en una empresa</p>
+                <p>Submodulo II - Elabora el plan de compras indirectas y asiste en el almacenaje de una empresa</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo V</div>
+            <div class="modulo-info">
+                <h3>Asiste en la gerencia de una organizacion</h3>
+                <p>Submodulo I - Asiste en la elaboracion del plan de negocios</p>
+                <p>Submodulo II - Asiste en la adminstracion de una organizacion</p>
+            </div>
+        </div>
+        <a href="Enfermeria.html" target="_blank"><h4><center>Mapa De Competencias Profesionales De la Carrera En Tecnico de Enfermeria General</center></h4></a>
+    </body>
+</html>

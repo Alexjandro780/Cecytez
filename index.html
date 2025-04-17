@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Colegio de Estudios Cientificos y Tecnologicos</title>
+        <link rel="stylesheet" 
+        href="stylesmenu.css">
+        <link rel="stylesheet" 
+        href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                fetch("Menu.html")
+                .then(Response=>Response.text())
+                .then(data=>{
+                    document.getElementById("menu-container").innerHTML=data;
+                });
+            });
+        </script>
+    </head>
+    <body>   
+        <div id="menu-container"></div>   
+        <div class="logo">
+            <div class="fade-in">
+            <img src="cecytezpng.png" alt="Logo Cecytez">
+          </div>
+        </div>
+        <h1 class="fade-in"><center>Colegio de Estudios Cientificos y Tecnologicos del Estado de Zacatecas</center></h1>
+        <h2 div class="fade-in"><center>Plantel Tlaltenango</center></h2>
+        <br>
+        <h2 class="fade-in"><center>¿Quienes Somos?</center></h2>
+        <br>
+        <div class="card">
+            <div class="fade-in">
+        <p>Somos un instituto publico educativo de media superior fundada el 29 de septiembre de 1997, bajo 
+            la direccion del Ing. Marco Antonio Medina Lozano. Este logro fue posible gracias a la gestion
+            del entonces presidente municipal, Dr. Francisco Mojarro Davila, quien facilito la donacion del 
+            terreno donde se construyeron las instalaciones actuales.
+        </p>
+        <p>
+            Este instituto ofrece una formación técnica y preparatoria, enfocada en proporcionar a los estudiantes una educación integral que combine el aprendizaje académico con el desarrollo de habilidades prácticas para ingresar al campo laboral o continuar estudios superiores.
+        </p>
+        <br>
+            </div>
+        </div>
+    <br>
+    <br>
+    <div class="card">
+        <div class="fade-in">
+        <p>
+            Algunas de las opciones y beneficios que ofrece el Cecytez Tlaltenango son:
+            <br>
+            <ul class="beneficios">
+                <li>
+                    <i class="fas fa-tools"></i>
+                    Carreras Tecnicas: Ofrece diversas opciones de formacion tecnica y preparatoria para estudiantes
+                    para estudiantes que deseen adquirir conocimientos practicos en areas especificas. Las carreras que
+                    ofrece el Ceytez Tlaltenango son: Procesos de Gestion Administrativa, Electricidad, Enfermeria y 
+                    Programacion.
+                </li>
+                <li>
+                    <i class="fas fa-tools"></i>
+                    Educacion de Calidad: El Cecytez Tlaltenango tiene un enfoque en la educacion de calidad,
+                    con un modelo que favorece tanto el desarrollo de competencias academicas como habilidades
+                    tecnicas.
+                </li>
+                <li>
+                    <i class="fas fa-tools"></i>
+                    Instalaciones Modernas: El colegio cuenta con instalaciones que permiten a los estudiantes
+                    acceder a equipos y recuros para su formacion tecnica y academica.
+                </li>
+                <li>
+                    <i class="fas fa-award"></i>
+                    Apoyo Para El Emprendimiento: Algunos programas pueden ofrecer orientacion y recursos para
+                    los estudiantes puedan emprender proyectos o pequeñas empresas al finalizar su formacion.
+                </li>
+                <li>
+                    <i class="fas fa-tools"></i>
+                    Actividades Culturales, Academicas y Deportivas: Aparte de los estudios academicos y tecnicos, los
+                    estudiantes tambien pueden participar en diversas actividades extracurriculares que enriquecen
+                    su desarrollo personal como el Festival Academico, Deportivos o el Concurso De Creatividad e 
+                    Inovacion Tecnologica.
+                </li>
+                <li>
+                    <i class="fas fa-tools"></i>
+                    Formacion integral: El Cecytez promueve el desarrollo integral de sus estudiantes, lo que incluye
+                    valores eticos, sociales y culturales que los preparan para ser ciudadanos responsables y comprometidos
+                    con su entorno.
+                </li>
+            </ol>
+        </p>
+    </div>
+</div>
+        <br>
+        <br>
+        <div class="card">
+            <div class="fade-in">
+        <p>
+            Actualmente el colegio es encabezado por la M.A.E. Maricela Serrano Delgado que funge como directora del colegio,
+            la L.A.E Silvina Gutierrez De Leon como subdirectora de la escuela y como cordinador academico el Ing.
+            J. Jose Estrada Escobar
+        </p>
+    </div>
+</div>
+    </body>
+</html>

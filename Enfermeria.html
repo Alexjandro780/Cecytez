@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Enfermeria</title>
+        <link rel="stylesheet" 
+        href="stylesmenu.css">
+        <link rel="stylesheet" 
+        href="styles.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                fetch("Menu.html")
+                .then(Response=>Response.text())
+                .then(data=>{
+                    document.getElementById("menu-container").innerHTML=data;
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="menu-container"></div>
+        <h3><center>Mapa De Competencias Profesionales De La Carrera En Tecnico De Enfermeria General</center></h3>
+        <br>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a4e91;">Modulo I</div>
+            <div class="modulo-info">
+                <h3>Aplica medidas preventivas, tecnicas basicas de atencion y cuidado al individuo, la familia y la comunidad, en el primero y segundo niveles de atencion</h3>
+                <p>Submodulo I - Ejecuta tecnicas y procedimientos de apoyo a la higiene, seguridad y confort del paciente, con base en los conocimientos de anatomia y fisiologia</p>
+                <p>Submodulo II - Aplica medidas preventivas y cuidados de enfermeria en salud comunitaria</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a8c4b">Modulo II</div>
+            <div class="modulo-info">
+                <h3>Aplica cuidados de baja y mediana complejidad para la recuperacion de la salud o limitar el daño en el adulto, con bases eticas y legales</h3>
+                <p>Submodulo I - Aplica terapeuticas, con base en la patologia que presenta el paciente, considerando los aspectos microbiologicos</p>
+                <p>Submodulo II - Aplica y desarrolla los procedimientos especificos y generales de baja y mediana complejidad en el adulto, con bases eticas y legales</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #c45f1a">Modulo III</div>
+            <div class="modulo-info">
+                <h3>Realiza procedimientos medico quirurgicos de calidad para el cuidado de adulto, con base en el proceso enfermero y administrativo</h3>
+                <p>Submodulo I - Realiza los procedimientos medico quirurgicos en la atencion del adulto hospitalizado</p>
+                <p>Submodulo II - Realiza procedimientos administrativos, con enfoque de calidad y seguridad, en los servicios de enfermeria</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo IV</div>
+            <div class="modulo-info">
+                <h3>Aplica el proceso de atencion de enfermeria en el cuidado de la mujer en edad reproductiva y del niño</h3>
+                <p>Submodulo I - Aplica cuidados a la mujer en la etapa parental, parto y postparto, asi como al recien nacido</p>
+                <p>Submodulo II - Aplica proceso de atencion de enfermeria al niño sano y enfermo, con base en su desarrollo biopsicosocial</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo V</div>
+            <div class="modulo-info">
+                <h3>Aplica el proceso enfermero en el cuidado del adulto mayor y en los programas de salud a la comunidad</h3>
+                <p>Submodulo I - Aplica cuidados de enfermeria en el adulto mayor, de acuerdo a sus necesidades</p>
+                <p>Submodulo II - Proporciona atencion de enfermeria a la comunidad, con la aplicacion de programas nacionales de salud fisica y mental</p>
+            </div>
+        </div>
+        <a href="Electricidad.html" target="_blank"><h4><center>Mapa De Competencias Profesionales De la Carrera En Tecnico De Electricidad</center></h4></a>
+    </body>
+</html>

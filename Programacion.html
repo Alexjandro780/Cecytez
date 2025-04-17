@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Programacion</title>
+        <link rel="stylesheet"
+        href="stylesmenu.css">
+        <link rel="stylesheet"
+        href="styles.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                fetch("Menu.html")
+                .then(Response=>Response.text())
+                .then(data=>{
+                    document.getElementById("menu-container").innerHTML=data;
+                });
+            });
+        </script>
+    </head>
+    <div id="menu-container"></div>
+    <h3><center>Mapa De Competencias Profesionales De La Carrera De Tecnico En Programacion</center></h3>
+        <br>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a4e91;">Modulo I</div>
+            <div class="modulo-info">
+                <h3>Desarrolla software de aplicacion con programacion estructurada</h3>
+                <p>Submodulo I - Construye algoritmos para la solucion de problemas</p>
+                <p>Submodulo II - Aplica estructuras de control con un lenguaje de programacion</p>
+                <p>Submodulo III- Aplica estructuras de datos con un lenguaje de programacion</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #1a8c4b">Modulo II</div>
+            <div class="modulo-info">
+                <h3>Aplica metodologias de desarrollo de software con herramientas de programacion visual</h3>
+                <p>Submodulo I - Aplica la metodologia espiral con programacion orientada a objetos</p>
+                <p>Submodulo II - Aplica la metodologia de desarrollo rapido de aplicaciones con programacion orientada a eventos</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #c45f1a">Modulo III</div>
+            <div class="modulo-info">
+                <h3>Desarrolla aplicaciones web</h3>
+                <p>Submodulo I - Construye paginas web</p>
+                <p>Submodulo II - Desarrolla aplicaciones que se ejecutan en el cliente</p>
+                <p>Submodulo III - Desarrolla aplicaciones que se ejecutan en el servidor</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo IV</div>
+            <div class="modulo-info">
+                <h3>Desarrolla software de aplicacion web con almacenamiento persistente de datos</h3>
+                <p>Submodulo I - Construye bases de datos para aplicaciones web</p>
+                <p>Submodulo II - Desarrolla aplicaciones web con conexion a bases de datos</p>
+            </div>
+        </div>
+        <div class="modulo">
+            <div class="modulo-num"
+            style="background-color: #a51826">Modulo V</div>
+            <div class="modulo-info">
+                <h3>Desarrolla aplicaciones para dispositivos moviles</h3>
+                <p>Submodulo I - Desarrolla aplicaciones moviles para Android</p>
+                <p>Submodulo II - Desarrolla aplicaciones moviles para IOS</p>
+            </div>
+        </div>
+        <a href="MarcoCurricular.html" target="_blank"><h4><center>Marco Curricular Comun de la Educacion Media Superior</center></h4></a>
+</html>
